@@ -8,6 +8,7 @@
 @import"/ComponentLibrary/Card.css";
 @import"/ComponentLibrary/Text-utilities.css";
 @import"/ComponentLibrary/List.css";
+@import"/ComponentLibrary/Navigation.css";
 
 :root{
    /* Colors  */

@@ -1,0 +1,61 @@
+@import "/ComponentLibrary/Css/main.css";
+
+:root{
+    /* Colors  */
+     --primary-color:#420039;
+     --secondary-color:#E1DEE9 ;
+     --plain-primary:white;
+     --danger:red;
+     --success:green;
+ 
+    /* Typography */
+    --designed-font: 'Kaushan Script', cursive;
+ 
+ }
+
+  .list-div{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 150px;
+    background: var(--secondary-color);
+    align-items: center;
+
+    border-style: ridge ;
+  }
+
+  .navigation-bar{
+      display:flex;
+      gap:90px;
+      align-items: center;
+      background: rgb(255, 254, 254);
+      padding: .2rem .4rem;
+      border: 2px solid ghostwhite;
+  }
+  .nav-menu{
+      display:flex;
+      gap:15px;
+  }
+  .icon-head{
+      display:flex;
+      gap:20px;
+  }
+
+  .icon-head img{
+      height: 30px;
+      width:30px;
+  }
+
+  .nav-menu a{
+      text-decoration: none;
+      color:black;
+      font-weight: 900;
+  }
+
+  .icon-head img:hover{
+      cursor:pointer;
+  }
+
+  .nav-menu a:nth-child(1){
+      text-decoration:underline 2px;
+      color:grey
+  }
