@@ -1,0 +1,78 @@
+@import "/ComponentLibrary/Css/main.css";
+
+:root{
+    /* Colors  */
+     --primary-color:#420039;
+     --secondary-color:#E1DEE9 ;
+     --plain-primary:white;
+     --danger:red;
+     --success:green;
+ 
+    /* Typography */
+    --designed-font: 'Kaushan Script', cursive;
+ 
+ }
+
+ 
+ .head-div{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 400px;
+    background: var(--secondary-color);
+    align-items: center;
+    padding: .5rem 1rem; 
+    border-style: ridge ;
+    flex-direction: column;
+ }
+
+ h1,h2,h3,h4,h5,h6{
+     padding: 0;
+     margin: 0;
+ }
+
+ .head-div div{
+     background:black;
+     padding :.5rem .2rem;
+     width:98%;
+     text-align:center;
+     color:var(--plain-primary)
+ }
+
+ .small-text{
+     font-size: smaller;
+     display: flex;
+    justify-content: space-evenly;
+    min-height: 400px;
+    background: var(--secondary-color);
+    align-items: center;
+    padding: .5rem 1rem; 
+    border-style: ridge ;
+    flex-direction: column;
+ }
+
+ .small-text div{
+    background:black;
+    padding :.5rem .2rem;
+    width:98%;
+    text-align:center;
+    color:var(--plain-primary)
+ }
+
+ .grey-div div{
+    background:black;
+    padding :.5rem .2rem;
+    width:98%;
+    text-align:center;
+    color:grey;   
+ }
+
+ .grey-div{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 400px;
+    background: var(--secondary-color);
+    align-items: center;
+    padding: .5rem 1rem; 
+    border-style: ridge ;
+    flex-direction: column;
+ }

@@ -6,6 +6,8 @@
 @import"/ComponentLibrary/Alert.css";
 @import"/ComponentLibrary/Button.css";
 @import"/ComponentLibrary/Card.css";
+@import"/ComponentLibrary/Text-utilities.css";
+@import"/ComponentLibrary/List.css";
 
 :root{
    /* Colors  */
@@ -86,6 +88,7 @@ body{
     display: flex;
     flex-flow: column wrap;
     gap:10px;
+    height:130%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     position: sticky;
@@ -117,7 +120,7 @@ body{
 
 footer{
     position: relative;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--primary-color);
     text-align: center;
     padding: 1rem 0rem;
