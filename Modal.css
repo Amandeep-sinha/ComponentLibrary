@@ -1,0 +1,45 @@
+@import "/ComponentLibrary/Css/main.css";
+
+:root{
+    /* Colors  */
+     --primary-color:#420039;
+     --secondary-color:#E1DEE9 ;
+     --plain-primary:white;
+     --danger:red;
+     --success:green;
+ 
+    /* Typography */
+    --designed-font: 'Kaushan Script', cursive;
+ 
+ }
+
+  .modal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 250px;
+    background: var(--secondary-color);
+    align-items: center;
+    border-style: ridge ;
+  }
+
+  .modal-btn{
+      display: flex;
+      justify-content: right;
+      gap:20px;
+  }
+
+  .modal-head{
+      display:flex;
+      justify-content:left;
+  }
+
+  
+  .modal-div{
+      display:flex;
+      flex-direction: column;
+      gap:35px;
+      background:white;
+      padding:1.2rem;
+
+  }

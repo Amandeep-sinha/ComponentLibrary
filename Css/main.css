@@ -9,6 +9,7 @@
 @import"/ComponentLibrary/Text-utilities.css";
 @import"/ComponentLibrary/List.css";
 @import"/ComponentLibrary/Navigation.css";
+@import"/ComponentLibrary/Modal.css";
 
 :root{
    /* Colors  */
