@@ -1,0 +1,18 @@
+@import "/ComponentLibrary/Css/main.css";
+
+:root{
+    /* Colors  */
+     --primary-color:#420039;
+     --secondary-color:#E1DEE9 ;
+     --plain-primary:white;
+     --danger:red;
+     --success:green;
+ 
+    /* Typography */
+    --designed-font: 'Kaushan Script', cursive;
+ 
+ }
+
+ .select{
+     color: rgb(236, 164, 8);
+ }

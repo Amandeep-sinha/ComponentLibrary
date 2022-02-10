@@ -10,6 +10,8 @@
 @import"/ComponentLibrary/List.css";
 @import"/ComponentLibrary/Navigation.css";
 @import"/ComponentLibrary/Modal.css";
+@import"/ComponentLibrary/Rating.css";
+@import"/ComponentLibrary/Snackbar.css";
 
 :root{
    /* Colors  */
