@@ -1,0 +1,152 @@
+@import "/ComponentLibrary/Css/main.css";
+
+:root{
+    /* Colors  */
+     --primary-color:#420039;
+     --secondary-color:#E1DEE9 ;
+     --plain-primary:white;
+     --danger:red;
+     --success:green;
+ 
+    /* Typography */
+    --designed-font: 'Kaushan Script', cursive;
+ 
+ }
+
+ .simple-card{
+     max-width:20%;
+     display: flex;
+     flex-direction: column;
+     padding: .5rem 1rem;
+     background: white;
+     gap:5px;
+     justify-content: flex-start;
+     min-height: 100%;
+     align-items: flex-start;
+
+ }
+
+ .simple-card img{
+     height:220px;
+     width:100%;
+     padding: 0;
+ }
+
+
+ .simple-card h3{
+     padding: 0;
+     margin: 0;
+ }
+
+ .card-div{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 400px;
+    background: var(--secondary-color);
+    align-items: center;
+    padding: .5rem 1rem; 
+    border-style: ridge ;
+}
+
+.simple-card a{
+    text-decoration: none;
+    padding: 0;
+}
+
+.simple-card a:hover{
+    text-decoration:underline;
+    color:orangered;
+}
+
+.simple-card img.badge{
+    position: relative;
+    top:-270px;
+    left:-15px;
+    /* display: block; */
+    height:55px;
+    width:35px;
+}
+
+h2, h3, h4{
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-card{
+    display: flex;
+    flex-flow: row ;
+    gap:20px;
+    background: var(--plain-primary);
+    padding: .5rem .4rem;
+    box-sizing: border-box;
+    opacity: 40%;
+}
+
+
+.card-content{
+    display: flex;
+    flex-flow: column wrap;
+    gap:5px;
+}
+
+.horizontal-card img{
+    height:200px;
+    width:120px;
+    padding: 0%;
+    
+}
+
+.rating{
+    background: green;
+    color:ghostwhite;
+    padding: .2rem;
+    font-weight: 100;
+}
+
+.price{
+    font-size: 1.4rem;
+    color:green;
+}
+
+.card-btn{
+    display: flex;
+    gap:20px;
+    justify-content: right;
+    padding-right: 10px;
+    
+}
+
+.card-btn button{
+    background:#fb641b;
+    border:none;
+    padding:.5rem .5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+strike{
+    font-size: .9rem;
+    color:red;
+}
+
+.overlay{
+    position:relative;
+    /* left:10%; */
+    background: rgb(240, 233, 233);
+    width:200px;
+    font-size: 2rem;
+    text-align: center;
+    bottom: 170px;
+
+}
+
+.card-div-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 400px;
+    background: var(--secondary-color);
+    align-items: center;
+    padding: .5rem 1rem; 
+    border-style: ridge ;
+}

@@ -5,6 +5,7 @@
 @import "/ComponentLibrary/Badge.css";
 @import"/ComponentLibrary/Alert.css";
 @import"/ComponentLibrary/Button.css";
+@import"/ComponentLibrary/Card.css";
 
 :root{
    /* Colors  */
@@ -77,7 +78,7 @@ body{
     z-index: 1;
     overflow-y:scroll;
     top:80px;
-    left:0;
+
     padding: 0.5rem 0rem;
 }
 
