@@ -1,4 +1,6 @@
-@import "/ComponentLibrary/Css/main.css";
+
+@import "Css/main.css";
+
 :root{
     /* Colors  */
      --primary-color:#420039;
