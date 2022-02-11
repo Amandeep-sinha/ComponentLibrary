@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
 
 
-@import "/Avatar.css"; 
-@import "/Badge.css";
+
+@import "../Avatar.css"; 
+@import "../Badge.css";
+
 
 :root{
    /* Colors  */
