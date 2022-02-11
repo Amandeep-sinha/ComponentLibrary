@@ -12,6 +12,7 @@
 @import"/ComponentLibrary/Modal.css";
 @import"/ComponentLibrary/Rating.css";
 @import"/ComponentLibrary/Snackbar.css";
+@import"../Grid.css";
 
 :root{
    /* Colors  */
