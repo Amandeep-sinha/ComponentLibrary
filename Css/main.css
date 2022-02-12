@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
 
 
-@import "/ComponentLibrary/Avatar.css"; 
-@import "/ComponentLibrary/Badge.css";
-@import"/ComponentLibrary/Alert.css";
-@import"/ComponentLibrary/Button.css";
-@import"/ComponentLibrary/Card.css";
-@import"/ComponentLibrary/Image.css";
-@import"/ComponentLibrary/Text-utilities.css";
-@import"/ComponentLibrary/List.css";
-@import"/ComponentLibrary/Navigation.css";
-@import"/ComponentLibrary/Modal.css";
-@import"/ComponentLibrary/Rating.css";
-@import"/ComponentLibrary/Snackbar.css";
+
+@import "../Avatar.css"; 
+@import "../Badge.css";
+@import"../Alert.css";
+@import"../Button.css";
+@import"../Card.css";
+@import"../Image.css";
+@import"../Text-utilities.css";
+@import"../List.css";
+@import"../Navigation.css";
+@import"../Modal.css";
+@import"../Rating.css";
+@import"../Snackbar.css";
+@import "../Avatar.css"; 
+@import "../Badge.css";
+
+
 
 :root{
    /* Colors  */
