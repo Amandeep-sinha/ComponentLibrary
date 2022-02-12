@@ -90,14 +90,12 @@ h2, h3, h4{
     gap:5px;
 }
 
-
 .horizontal-card img, .horizontal-card-overlay img{
     height:200px;
     width:120px;
     padding: 0%;
     
 }
-
 
 .rate{
     background: green;
@@ -152,7 +150,6 @@ strike{
     align-items: center;
     padding: .5rem 1rem; 
     border-style: ridge ;
-
 }
 
 .horizontal-card-overlay{
