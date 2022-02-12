@@ -159,7 +159,7 @@ footer{
     padding: 2rem 2rem;
     flex-flow: row wrap;
     background: #f4f2f8;
-    border:5px solid;
+    border:5px solid grey;
 }
 
 .index-content{
@@ -177,4 +177,17 @@ footer{
     text-align: center;
     margin:1rem;
     text-decoration: none;
+}
+
+.setup{
+    display: flex;
+    padding: 2rem 2rem;
+    flex-flow: column wrap;
+    background: #f4f2f8;
+    border:5px solid grey;
+}
+
+.instruction{
+    font-size: 2rem;
+    padding: 2rem 2rem;
 }
