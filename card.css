@@ -79,7 +79,8 @@ h2, h3, h4{
     background: var(--plain-primary);
     padding: .5rem .4rem;
     box-sizing: border-box;
-    opacity: 40%;
+
+    /* opacity: 40%; */
 }
 
 
@@ -89,14 +90,16 @@ h2, h3, h4{
     gap:5px;
 }
 
-.horizontal-card img{
+
+.horizontal-card img, .horizontal-card-overlay img{
     height:200px;
     width:120px;
     padding: 0%;
     
 }
 
-.rating{
+
+.rate{
     background: green;
     color:ghostwhite;
     padding: .2rem;
@@ -149,4 +152,15 @@ strike{
     align-items: center;
     padding: .5rem 1rem; 
     border-style: ridge ;
+
+}
+
+.horizontal-card-overlay{
+    display: flex;
+    flex-flow: row ;
+    gap:20px;
+    background: var(--plain-primary);
+    padding: .5rem .4rem;
+    box-sizing: border-box;
+    opacity: 40%;
 }

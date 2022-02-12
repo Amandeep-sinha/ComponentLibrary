@@ -1,0 +1,69 @@
+@import "/ComponentLibrary/Css/main.css";
+
+:root{
+    /* Colors  */
+     --primary-color:#420039;
+     --secondary-color:#E1DEE9 ;
+     --plain-primary:white;
+     --danger:red;
+     --success:green;
+ 
+    /* Typography */
+    --designed-font: 'Kaushan Script', cursive;
+ 
+ }
+
+ .stack-item{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+     color:white;
+     border:1px solid;
+     height:100px;
+     gap:20px;
+     width:110%
+ }
+
+ .stack-content{
+     display:flex;
+     flex-flow: column wrap;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap:10px;
+     
+ }
+
+ .stack-btn{
+     display:flex;
+     gap:15px;
+ }
+
+ .stack-item img{
+     height:80px;
+     width:80px;
+     border-radius: 50%;
+ }
+
+ .stack-content p{
+     padding: 0;
+ }
+
+.stack-btn button{
+      background-color: White;
+      margin: 0;
+  }
+
+  .list-div{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 150px;
+    background: var(--secondary-color);
+    align-items: center;
+
+    border-style: ridge ;
+  }
+
+  .icon-list{
+      list-style: none;
+  }
