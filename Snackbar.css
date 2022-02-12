@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding:2rem;
+}
+
+.snackbar-div{
+    background: #333;
+    color:ghostwhite;
+    display:flex;
+    height:50px;
+    width:420px;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    border-radius: 4px;
+    filter: brightness(95%);
+    
+    font-family: 'Roboto',sans-serif;
+    
+    font-size: .875rem;
+    
+    font-weight: 400;
+    letter-spacing: .0178571429em;
+    
+}
+.snack-retry a{
+    text-decoration: none;
+    color: #bb86fc;
+    padding:.5rem
+}
+
+.snack-cancel i{
+    height:12px;
+    width:12px;
+    padding:.8rem
+}
+
+.snack-cancel i:hover{
+    border-radius:1.2rem;
+    background:grey;
+    cursor:pointer;
+}
+.snack-retry a:hover{
+    background: #5b417c3a;
+    
+}

@@ -20,9 +20,7 @@
 @import"../List.css";
 @import"../Navigation.css";
 @import"../Modal.css";
-
-
-
+@import"../Snackbar.css";
 
 :root{
    /* Colors  */
