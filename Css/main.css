@@ -14,6 +14,7 @@
 @import"../Image.css";
 @import"../Input.css";
 @import"../Card.css";
+@import"../Image.css";
 @import"../Text-utilities.css";
 @import"../List.css";
 @import"../Navigation.css";
@@ -21,6 +22,7 @@
 @import"../Rating.css";
 @import"../Snackbar.css";
 @import"../Grid.css";
+
 
 :root{
    /* Colors  */
