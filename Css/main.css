@@ -2,6 +2,7 @@
 
 
 
+
 @import "../Avatar.css"; 
 @import "../Badge.css";
 @import"../Alert.css";
@@ -14,8 +15,8 @@
 @import"../Modal.css";
 @import"../Rating.css";
 @import"../Snackbar.css";
-@import "../Avatar.css"; 
-@import "../Badge.css";
+@import"../Grid.css";
+
 
 
 
