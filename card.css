@@ -79,6 +79,7 @@ h2, h3, h4{
     background: var(--plain-primary);
     padding: .5rem .4rem;
     box-sizing: border-box;
+
     /* opacity: 40%; */
 }
 
