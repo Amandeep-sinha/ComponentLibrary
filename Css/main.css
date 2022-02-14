@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
 
 
 
@@ -7,6 +11,8 @@
 @import "../Badge.css";
 @import"../Alert.css";
 @import"../Button.css";
+@import"../Image.css";
+@import"../Input.css";
 @import"../Card.css";
 @import"../Image.css";
 @import"../Text-utilities.css";
@@ -16,8 +22,6 @@
 @import"../Rating.css";
 @import"../Snackbar.css";
 @import"../Grid.css";
-
-
 
 
 :root{
@@ -150,4 +154,49 @@ footer{
     width: 30px;
     height: 30px;
     background: white;
+}
+
+.tagline{
+    font-family: var(--designed-font);
+    font-size:2.5rem;
+    padding:1rem .5rem;
+}
+
+.index-div{
+    display: flex;
+    padding: 2rem 2rem;
+    flex-flow: row wrap;
+    background: #f4f2f8;
+    border:5px solid grey;
+}
+
+.index-content{
+    font-size: 2rem;
+    padding: 2rem 2rem;
+}
+
+.open-btn{
+    padding:1rem 2rem;
+    text-align: center;
+}
+
+.open-btn a{
+    padding:1rem 2rem;
+    text-align: center;
+    margin:1rem;
+    text-decoration: none;
+}
+
+
+.setup{
+    display: flex;
+    padding: 2rem 2rem;
+    flex-flow: column wrap;
+    background: #f4f2f8;
+    border:5px solid grey;
+}
+
+.instruction{
+    font-size: 2rem;
+    padding: 2rem 2rem;
 }
