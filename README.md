@@ -26,5 +26,7 @@ Steps To Import this library into your web-app :-
    3. Paste that link into the "<head>" tag of your HTML file.
    4. choose the components you want to import in your website.
    ![image](https://user-images.githubusercontent.com/73280299/154903912-e6e5375f-cda3-4434-bde4-d5377606ae5f.png)
-   5. copy the code of that specific component you want to import in your website.
-   6. hurray you did it. NOW you can see that component in your website.
+   5. copy the code of that specific component you want to import in your website. 
+   6. Paste the copied piece of code in your HTML division Where you want to get that component.
+   7. If you want to add some more styles to that component, you can use the classname mentioned in the piece of code you copied and have your own styles
+   8. hurray you did it. NOW you can see that component in your website.
